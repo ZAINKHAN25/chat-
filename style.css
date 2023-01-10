@@ -1,0 +1,161 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgb(175, 232, 255);
+}
+.main{
+    height: 90vh;
+    width: 70vw;
+    background-color: rgb(201, 201, 201);
+    margin: 25px auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    background-color: darkcyan;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+}
+
+.header i{
+    margin-top: 20px;
+    /* flex-direction: row-reverse; */
+    margin-left: 50px;
+    color: rgb(255, 255, 255); 
+}
+
+.header h1{
+    color: white;
+    margin-top: 42px;
+    margin-left: 25px;
+}
+
+.userthing{
+    width: 80%;
+}
+
+.userthing span{
+    margin-bottom: -800px;
+    color: white;
+    margin-left: 25px;
+}
+
+#pic{
+    margin-left: 28px;
+}
+
+#picaabo{
+    margin-top: -100px;
+    float: right;
+    border-radius: 50%;
+    width: 110px;
+    height: 105px;
+    background-color: red;
+    border: 1px solid greenyellow;
+}
+
+.other{
+    width: 400px;
+    height: 70px;
+    background-color: rgb(57, 253, 149);
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    color: darkgreen;
+    text-align: justify;
+    padding: 5px;
+    display: inline;
+}
+
+.other i{
+    float: left;
+    margin-left: -40px;
+    margin-top: 18px;
+}
+
+.other h5{
+    float: right;
+    margin-top: -40px;
+    margin-right: -70px;;
+}
+
+.user {
+    width: 500px;
+    height: 70px;
+    background-color: rgb(156, 247, 255);
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    color: darkgreen;
+    padding: 5px 10px; 
+    display: flex;
+    flex-direction: row-reverse;
+}
+.user p{
+    text-align: left;
+    padding-right: 10px;
+}
+.user i{
+    float: right;
+    margin-right: -40px;
+    margin-top: 18px;
+    color: beige;
+}
+
+.user h5{
+    display: inline;
+    float: left;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+
+#h5{
+    display: flex;
+    flex-direction: column;
+}
+
+.write{
+    border: 2px solid #32fc32;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    position:absolute;
+    bottom: 50px;
+    margin-left: 50px;
+    display: flex;
+    padding-bottom: 3px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.write input {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left:15px;
+    border-radius: 50px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.write input:focus {
+    outline: none;
+}
+
+.write i{
+    margin: 9px 9px 5px 0px;
+    cursor: pointer;
+}
